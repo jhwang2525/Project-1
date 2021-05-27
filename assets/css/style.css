@@ -5,9 +5,9 @@
 }
 
 :root {
-    --primary-color: #f02731;
-    --secondary-color: #eb780dc5;
-    --tertiary-color: #eb780dc5;
+    --primary-color: #eca31c;
+    --secondary-color: #ffffffc5;
+    --tertiary-color: #559ceefd;
 }
 
 body {
@@ -45,7 +45,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 header nav {
@@ -140,7 +140,7 @@ section {
     width: 35%;
     text-align: right;
     margin: 3.5%;
-    color: #fff;
+    color: #eca31c;
     font-size: 18px;
     line-height: 1.2;
 }
@@ -148,13 +148,13 @@ section {
 .her0-cta h2 {
     font-style: italic;
     font-size: 55px;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .her0-form {
     border: 3px solid var(--secondary-color);
-    background-color: rgba(252, 225, 56, 0.8);
+    background-color: #559ceefd;
     padding: 20px;
     color: var(--secondary-color);
     width: 40%;
@@ -221,7 +221,7 @@ section {
     content: "";
     height: 20px;
     width: 20px;
-    background: rgba(255, 255, 255, 0.75);
+    background: #ffffffc5;
     border: 1px solid var(--secondary-color);
     position: absolute;
     top: -4px;
@@ -286,7 +286,7 @@ section {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
-    border-bottom: 1px solid #39a6b2;
+    border-bottom: 1px solid #559ceefd;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -324,7 +324,8 @@ section {
 }
 
 .step-text p {
-    color: #39a6b2;
+    color: #559ceefd;
+    ;
     font-size: 18px;
 }
 
@@ -335,11 +336,11 @@ h4 {
 }
 
 .primary-border {
-    border-color: #f8dd2b;
+    border-color: #ffffffc5
 }
 
 .secondary-border {
-    border-color: #39a6b2;
+    border-color: #559ceefd;
 }
 
 /* Meet The Trainers Start */
@@ -413,7 +414,7 @@ h4 {
 }
 
 .contact-info div {
-    color: white;
+    color: #ffffffc5;
 }
 
 .contact-info h3 {
