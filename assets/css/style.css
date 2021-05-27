@@ -106,7 +106,7 @@ section {
 
 .section-title {
     font-size: 48px;
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
     border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
@@ -269,7 +269,7 @@ section {
 
 .intro p {
     line-height: 1.7;
-    color: var(--tertiary-color);
+    color: var(--primary-color);
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
