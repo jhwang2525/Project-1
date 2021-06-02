@@ -20,5 +20,5 @@
 
 # Links
 
-* *Github Link
-* *Deployed Live URL
+* Github Link
+* Deployed Live URL
