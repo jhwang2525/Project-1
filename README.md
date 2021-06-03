@@ -28,4 +28,4 @@
 
 
 
-![Alt Text](https://drive.google.com/file/d/1UPv0PR6e77pBu8LWNQCKJIZBaiI7zT5z/view)
+![Alt Text](https://github.com/jhwang2525/Project-1/blob/main/assets/images/TopChart!%20(1).gif?raw=true)
