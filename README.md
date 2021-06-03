@@ -9,11 +9,12 @@
 
 # Technologies Used
 * HTML
-* CSS
-* Animation CSS
+* Materialize/ Foundation/ Tailwind/Bulma
+ CSS
 * JavaScript
-* The AudioDB API
-
+* The AudioDB API and Genius 
+* JS/JSON
+* 
 # Tasks and Roles:
 
 * Front-End: Diana, Alexander
@@ -22,5 +23,5 @@
 
 # Links
 
-* Github Link
-* Deployed Live URL
+* Github Link - 
+* Deployed Live URL -
