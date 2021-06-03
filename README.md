@@ -25,3 +25,7 @@
 
 * Github Link -  https://github.com/jhwang2525/Project-1
 * Deployed Live URL - https://jhwang2525.github.io/Project-1/
+
+
+
+[![Alt text for your video](https://drive.google.com/file/d/1UPv0PR6e77pBu8LWNQCKJIZBaiI7zT5z/view)
