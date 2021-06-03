@@ -17,7 +17,7 @@
 # Tasks and Roles:
 
 * Front-End: Diana, Alexander
-* Back-End: Alexander, Jun
+* Back-End: Jun, Diana
 * Readme: Jun, Diana, Alexander
 
 # Links
