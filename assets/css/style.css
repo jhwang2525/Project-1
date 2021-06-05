@@ -32,12 +32,13 @@ h5 {
 :root {
     --primary-color: #242424;
     --secondary-color: #ffffffc5;
-    --tertiary-color: #f79f1a;
+    --tertiary-color: #f7c24ef6;
 }
 
 body {
     /* more on this crazy alphanumerical value in a minute! */
     color: var(--tertiary-color);
+    font-family: Helvetica, Arial, sans-serif;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -449,6 +450,7 @@ section {
 
 .dropdown:hover .dropdown-content {
     display: block;
+    border-radius: 5px;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */

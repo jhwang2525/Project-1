@@ -13,48 +13,108 @@
 
 <body>
     <!--Div 1-->
+
+
     <header>
+        <h1>
+            <a href="/">TopChart</a>
+        </h1>
+        <nav>
+            <!-- Unordered list element -->
+            <ul>
+                <!-- List item element -->
+                <li>
+                    <!-- Anchor element -->
+
+                    <div class="dropdown">
+                        <button class="dropbtn">Top Chart
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <div class="header">
+                                <a href="#">New Release</a>
+                                <a href="#">Billboard Top 100</a>
+                                <a href="#">Viral Hits</a>
+                                <a href="#">Today's Top Hits</a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">By Genre
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <div class="header">
+                                <a href="#">Pop</a>
+                                <a href="#">R&B/Hip-Hop</a>
+                                <a href="#">Latin</a>
+                                <a href="#">Greatest of All Time</a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">By Artist
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <div class="header">
+                                <a href="#">Indie</a>
+                                <a href="#">R&B/Hip-Hop</a>
+                                <a href="#">Pop</a>
+                                <a href="#">Latin</a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Music Video
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <div class="header">
+                                <a href="#">Most Viewed</a>
+                                <a href="#">New Release</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section>
         <!--Div 2-->
-        <div class="header-and-songs-list">
-            <!--Div 3 Top of Page-->
-            <div class="product-header">
-                <!--Div 4-->
-                <div class="product-lockup">
-                    <!--insert image here-->
-                    <div class="product-lockup__artwork">
-                        <picture>
-                            <img class="" src="./assets/images/pop-latin2.jpeg" alt="">
-                        </picture>
-                    </div>
-                </div>
-            </div>
 
-            <!--Div 5 -->
-            <div class="product-page-header">
-                <div class="product-page-header">
-                    <!--H1 = Title/Genre here-->
-                    <h1 id="">
-                        Top 20: Pop-Latin
-                    </h1>
-                    <!--Div 7 -->
-                    <div class="her0-cta h2">
-                        <span>TopChart Music</span>
-                    </div>
-                </div>
+        <!--Div 3 Top of Page-->
+        <div class="page-header">
+            <!--Div 4-->
+            <div class="product-lockup">
+                <!--insert image here-->
+                <div class="product-lockup__artwork">
+                    <img class="genre-img" src="./assets/images/POP.jpg" alt="" style="width:550px">
 
-                <!--Div, Extra For Small Descrip -->
-
-                <div class="product-page-header">
-                    <span>
-                        <p>
-                            The most-played songs in the United States,
-                            updated every day.
-                        </p>
-                    </span>
                 </div>
             </div>
         </div>
-    </header>
+
+        <!--Div 5 -->
+        <div class="page-header">
+
+            <div class="pages-header">
+                <!--H1 = Title/Genre here-->
+                <h1 id="">
+                    Top 20: Pop-Latin
+                </h1>
+                <!--Div 7 -->
+                <div class="pages-header">
+                    <span>TopChart Music</span>
+                </div>
+            </div>
+
+            <!--Div, Extra For Small Descrip -->
+
+            <div class="pages-header">
+                <p>
+                    The most-played songs in the United States,
+                    updated every day.
+                </p>
+            </div>
+        </div>
+    </section>
 
     <div class="columns is-multiline is-mobile">
         <div class="column is-one-quarter">
@@ -72,7 +132,7 @@
             </picture>
 
         </div>
-        <div class="column">
+        <div class="column is-four-quarters">
             <div class="songs-list-row__rank">1</div>
             <div class="songs-list-row__song-name">
                 good 4 u
