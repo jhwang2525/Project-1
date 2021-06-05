@@ -138,6 +138,37 @@ header nav ul li a:hover {
     background-color: #7aa8fd;
 }
 
+footer {
+    background: var(--primary-color);
+    width: 100%;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    color: var(--secondary-color);
+    ;
+    font-size: 15px;
+    margin: 0;
+}
+
+footer div {
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: var(--secondary-color);
+}
+
+
+
+
+
+
+
 .genre-img {
     object-position: center;
 }
