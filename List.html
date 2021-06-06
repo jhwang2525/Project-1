@@ -10,14 +10,11 @@
     <title>TopChart/Genre</title>
 </head>
 
-
 <body>
-    <!--Div 1-->
-
-
+    <!-- "Header" (Start of Page) -->
     <header>
         <h1>
-            <a href="/">TopChart</a>
+            <a href="index.html">TopChart</a>
         </h1>
         <nav>
             <!-- Unordered list element -->
@@ -44,7 +41,7 @@
                         </button>
                         <div class="dropdown-content">
                             <div class="header">
-                                <a href="#">Pop</a>
+                                <a href="./List.html">Pop</a>
                                 <a href="#">R&B/Hip-Hop</a>
                                 <a href="#">Latin</a>
                                 <a href="#">Greatest of All Time</a>
@@ -76,21 +73,33 @@
     </header>
 
 
-    <section>
-        <!--Div 2-->
-        <!--Div 3 Top of Page-->
-        <div class="page-header">
-            <!--Div 4-->
-            <div class="product-lockup">
-                <!--insert image here-->
-                <div class="product-lockup__artwork">
-                    <img class="genre-img" src="./assets/images/POP.jpg" alt="" style="width:550px">
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- "Name of Genre" Section Here-->
+    <section>
+        <!--Div 3 Middle of Page-->
+        <div class="page-header">
+            <div class="container">
+                <!--insert image here-->
+                <div class="genre-artwork">
+                    <img class="genre-img" src="./assets/images/POP.jpg" alt="" style="width:550px">
                 </div>
             </div>
         </div>
 
-        <!--Div 5 -->
+        <!--insert text here-->
         <div class="page-header">
 
             <div class="pages-header">
@@ -98,14 +107,10 @@
                 <h1 id="">
                     Top 20: Pop-Latin
                 </h1>
-                <!--Div 7 -->
                 <div class="pages-header">
                     <span>TopChart Music</span>
                 </div>
             </div>
-
-            <!--Div, Extra For Small Descrip -->
-
             <div class="pages-header">
                 <p>
                     The most-played songs in the United States,
@@ -115,11 +120,12 @@
         </div>
     </section>
     <!--Ranking List-->
-    <div>
+    <div class="rank">
+        <!--1st Track-->
         <ul>
             <li><a class="songs-rank">1</a></li>
             <li>
-                <picture class="album-cover">
+                <picture class="album-image">
                     <source sizes="40px"
                         srcset="https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/e1/79/61/e1796180-6f6f-fbaa-6aa8-8e1516ac49c6/21UMGIM26092.rgb.jpg/40x40bb-50.webp 40w, https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/e1/79/61/e1796180-6f6f-fbaa-6aa8-8e1516ac49c6/21UMGIM26092.rgb.jpg/80x80bb-50.webp 80w"
                         type="image/webp">
@@ -139,15 +145,59 @@
             </li>
             <li><a class="songs-length">2:58</a></li>
         </ul>
+        <!-- 2nd Track-->
+        <ul>
+            <li><a class="songs-rank">2</a></li>
+            <li>
+                <picture class="album-image">
+                    <source sizes="40px"
+                        srcset="https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/e1/79/61/e1796180-6f6f-fbaa-6aa8-8e1516ac49c6/21UMGIM26092.rgb.jpg/40x40bb-50.webp 40w, https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/e1/79/61/e1796180-6f6f-fbaa-6aa8-8e1516ac49c6/21UMGIM26092.rgb.jpg/80x80bb-50.webp 80w"
+                        type="image/webp">
 
+                    <source
+                        srcset="https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/e1/79/61/e1796180-6f6f-fbaa-6aa8-8e1516ac49c6/21UMGIM26092.rgb.jpg/40x40bb-50.jpg 40w, https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/e1/79/61/e1796180-6f6f-fbaa-6aa8-8e1516ac49c6/21UMGIM26092.rgb.jpg/80x80bb-50.jpg 80w"
+                        type="image/jpeg">
+
+                    <img class="media-artwork-v2__image" sizes="40px" src="/assets/artwork/1x1.gif" height="40"
+                        width="40">
+                </picture>
+            </li>
+            <li><a class="songs-name"> traitor</a></li>
+            <li><a href="https://music.apple.com/us/artist/olivia-rodrigo/979458609" class="songs-artist-name">Olivia
+                    Rodrigo</a></li>
+            <li><a href="https://music.apple.com/us/album/good-4-u/1560735414?i=1560735551" class="songs-album">SOUR</a>
+            </li>
+            <li><a class="songs-length">3:34</a></li>
+        </ul>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <!-- Footer -->
     <footer>
         <h2>© 2021 Team DJA. All Rights Reserved.</h2>
-
-
     </footer>
 
 
