@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 :root {
@@ -12,7 +11,6 @@
 
 body {
     /* more on this crazy alphanumerical value in a minute! */
-    font-family: Helvetica, Arial, sans-serif;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -163,16 +161,59 @@ footer a {
     color: var(--secondary-color);
 }
 
-
-
-
-
-
+.div {
+    background: green;
+}
 
 .genre-img {
     object-position: center;
 }
 
-.section, .pages-sheader {
+.section, .pages-header {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.columns .is-multiline .is-mobile .column .is-one-quarter {
+    background-color: #7aa8fd;
+    width: 100%;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column .is-four-quarters {
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
     float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.page-header {
+    padding: 16px;
+    margin: 5px;
+    float: center;
 }
