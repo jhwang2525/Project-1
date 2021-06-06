@@ -301,9 +301,11 @@ section {
     background-color: rgba(255, 255, 255, 1);
     outline: none;
 }
-.new-release{
+
+.new-release {
     background: linear-gradient( rgb(20, 8, 85), rgb(35, 81, 179));
 }
+
 .contact-form button {
     width: 100%;
     border: none;
@@ -374,7 +376,6 @@ section {
   padding: 16px;
   font-size: 13px;
   border: none;
-    background-color: #000000c5;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -439,38 +440,42 @@ section {
     border-radius: 5px;
     display: flex;
     flex-direction: row;
-    align-items:center;
-  }
-  input {
+    align-items: center;
+}
+
+input {
     all: unset;
     font: 16px system-ui;
     color: rgb(0, 0, 0);
     height: 100%;
     width: 100%;
     padding: 6px 10px;
-  }
-  .form {
-  display: flex;
-  flex-direction: row;
 }
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
 .search-field {
-  width: 100%;
-  padding: 10px 35px 10px 15px;
-  border: none;
-  border-radius: 100px;
-  outline: none;
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
 }
 .search-button {
-  background: transparent;
-  border: none;
-  outline: none;
-  margin-left: -33px;
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
 }
 .search-button img {
-  width: 20px;
-  height: 20px;
-  object-fit: cover;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
 }
+
 a {
     text-decoration: none;
   }
