@@ -41,22 +41,27 @@ h5 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+    --primary-color: #242424;
+    --secondary-color: #ffffffc5;
+    --tertiary-color: #9E9E9E;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 /* apply styles to <header> */
 
 header {
     padding: 10px 20px;
-    background-color: var(--tertiary-color);
+    background-color: #242424;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-image: url(../assets/images/hero-bg.jpg);
-    background-size: cover;
-    background-position: 80%;
-    background-attachment: fixed;
-    background-position: 80%;
     z-index: 9999;
 }
 
@@ -166,7 +171,7 @@ section {
     width: 35%;
     text-align: right;
     margin: 3.5%;
-    color: #eca31c;
+    color: #ECA31C;
     font-size: 18px;
     line-height: 1.2;
 }
@@ -297,7 +302,87 @@ section {
     display: flex;
 }
 
-/* Reach out STYLES END */
+.contact {
+    background-color: var(--secondary-color);
+}
+
+.contact h2 {
+    font-size: 55px;
+    display: inline-block;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    margin-bottom: 35px;
+    color: var(--primary-color);
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info>* {
+    flex: 1;
+    margin: 15px;
+}
+
+.contact-info div {
+    color: #ffffffc5;
+}
+
+.contact-info h3 {
+    color: var(--primary-color);
+    font-size: 32px;
+}
+
+.contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.contact-info a {
+    color: var(--primary-color);
+}
+
+.contact-form input, .contact-form textarea {
+    border: 1px solid var(--secondary-color);
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: var(--secondary-color);
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75)
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
+}
+
+.new-release {
+    background: linear-gradient( rgb(20, 8, 85), rgb(35, 81, 179));
+}
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.contact-form button:hover {
+    color: var(--primary-color);
+    background: #39A6B2;
+}
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER START*/
 
@@ -358,6 +443,11 @@ section {
     background-color: #000000c5;
     color: white;
     padding: 16px;
+    font-size: 13px;
+    border: none;
+    background-color: #000000c5;
+    color: white;
+    padding: 16px;
     font-size: 16px;
     border: none;
 }
@@ -374,7 +464,7 @@ section {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #F1F1F1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -405,5 +495,136 @@ section {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
 .dropdown:hover .dropbtn {
-    background-color: #7aa8fd;
+    background-color: #7AA8FD;
+    height: auto;
+}
+
+.dropbtn ul {
+    background: #ddd;
+    height: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    transition: all .5s ease;
+    top: 35px;
+    width: 100%;
+}
+
+.dropbtn li:hover ul {
+    height: 200px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.menu ul a {
+    color: #000;
+    display: block;
+    padding: 5px 20px;
+}
+
+form {
+    background-color: #F2F2F2;
+    width: 800px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input {
+    all: unset;
+    font: 16px system-ui;
+    color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-field {
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+}
+
+.search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.dropdown {
+    font-family: monospace;
+}
+
+.ul {
+    background: darkorange;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.li {
+    color: #fff;
+    background: darkorange;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.li a {
+    color: #fff;
+}
+
+.li:hover {
+    background: red;
+    cursor: pointer;
+}
+
+.ul li ul {
+    background: orange;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+
+.ul li:hover>ul, .ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+.ul li ul li {
+    clear: both;
+    width: 100%;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #7AA8FD;
 }

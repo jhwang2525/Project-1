@@ -1,12 +1,41 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font: size 80px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
     --primary-color: #242424;
     --secondary-color: #ffffffc5;
-    --tertiary-color: #f7c24ef6;
+    --tertiary-color: #9E9E9E;
+}
+
+:root {
+    --primary-color: #242424;
+    --secondary-color: #ffffffc5;
+    --tertiary-color: #242424;
 }
 
 body {
@@ -14,6 +43,8 @@ body {
 }
 
 header {
+    padding: 5px 10px;
+    background-color: #242424;
     padding: 10px 20px;
     background-color: var(--tertiary-color);
     display: flex;
@@ -117,7 +148,7 @@ footer a {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #F1F1F1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -148,7 +179,7 @@ footer a {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
 .dropdown:hover .dropbtn {
-    background-color: #7aa8fd;
+    background-color: #7AA8FD;
 }
 
 section {
@@ -181,6 +212,8 @@ li a:hover {
 }
 
 .page-header {
+    padding: 10px;
+    margin: 2px;
     padding: 16px;
     margin: 5px;
     float: center;
@@ -230,4 +263,55 @@ li a:hover {
     .trainer {
         flex: 0 100%;
     }
+}
+
+form {
+    background-color: #F2F2F2;
+    width: 800px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input {
+    all: unset;
+    font: 16px system-ui;
+    color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-field {
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+}
+
+.search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+section {
+    min-height: 40vh;
+    /* minus the height of the footer */
+    background: linear-gradient( rgb(20, 8, 85), rgb(35, 81, 179));
 }
