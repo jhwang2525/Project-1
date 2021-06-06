@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     box-sizing: border-box;
 }
 
@@ -25,6 +26,14 @@ h5 {
     --primary-color: #242424;
     --secondary-color: #ffffffc5;
     --tertiary-color: #9e9e9e;
+=======
+}
+
+:root {
+    --primary-color: #242424;
+    --secondary-color: #ffffffc5;
+    --tertiary-color: #f7c24ef6;
+>>>>>>> d4bb15179e9d4ff5023ac2ea04cc133ab6c3fa6a
 }
 
 body {
@@ -32,14 +41,26 @@ body {
 }
 
 header {
+<<<<<<< HEAD
     padding: 5px 10px;
     background-color: #242424;
+=======
+    padding: 10px 20px;
+    background-color: var(--tertiary-color);
+>>>>>>> d4bb15179e9d4ff5023ac2ea04cc133ab6c3fa6a
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+<<<<<<< HEAD
+=======
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    background-position: 80%;
+>>>>>>> d4bb15179e9d4ff5023ac2ea04cc133ab6c3fa6a
     z-index: 9999;
 }
 
@@ -195,8 +216,13 @@ li a:hover {
 }
 
 .page-header {
+<<<<<<< HEAD
     padding: 10px;
     margin: 2px;
+=======
+    padding: 16px;
+    margin: 5px;
+>>>>>>> d4bb15179e9d4ff5023ac2ea04cc133ab6c3fa6a
     float: center;
 }
 
@@ -244,6 +270,7 @@ li a:hover {
     .trainer {
         flex: 0 100%;
     }
+<<<<<<< HEAD
 }
 form {
     background-color: #f2f2f2;
@@ -290,3 +317,6 @@ section {
     min-height: 40vh; /* minus the height of the footer */
      background: linear-gradient( rgb(20, 8, 85), rgb(35, 81, 179));
     }
+=======
+}
+>>>>>>> d4bb15179e9d4ff5023ac2ea04cc133ab6c3fa6a
