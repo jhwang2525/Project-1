@@ -24,7 +24,7 @@
 # Links
 
 * Github Link -  https://github.com/jhwang2525/Project-1
-* Deployed Live URL - https://jhwang2525.github.io/Project-1/ *** (REDO THIS LINK) ***
+* Deployed Live URL - https://jhwang2525.github.io/Project-1/
 
 
 
