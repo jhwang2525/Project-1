@@ -7,6 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/styleList.css" />
         <script src="../javascript/script.js"></script>
+        <script type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <title>TopChart/Genre</title>
     </head>
 
@@ -70,6 +72,14 @@
                 </ul>
             </nav>
         </header>
+
+        <div class="small-container"> <h1>Search and save songs!</h1> 
+            <form> <input id="item" type="text" placeholder="Type Songs" required> </form> 
+            <h2>Saved Songs</h2>
+             <button>Clear All</button> 
+            </div>
+
+
         <!-- "Name of Genre" Section Here-->
         <section>
             <!--Div 3 Middle of Page-->
@@ -99,25 +109,6 @@
                     </p>
                     <br>
                     <br>
-                    <!--Search bar -->
-                    <h1 class="page-title"></h1>
-                    <p>Search a song and add it to your list!</p>
-                    <form id="task-form">
-                        <div class="form-group">
-                            <input type="text" name="task-name" placeholder="Search for artist, tracks" />
-                        </div>
-                        <div class="form-group">
-                            <select name="task-type" class="select-dropdown">
-                                <option value="" disabled selected>Pick a task type</option>
-                                <option value="Print">Print</option>
-                                <option value="Web">Web</option>
-                                <option value="Mobile">Mobile</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <button class="btn" id="save-task" type="submit">Add Task</button>
-                        </div>
-                    </form>
                 </div>
             </div>
         </section>
@@ -125,56 +116,134 @@
         <div class="rank">
             <!--1st Track-->
             <ul>
+                <ul class="task-list" id="tasks-to-do"></ul>
                 <li><a class="songs-rank">1</a></li>
                 <li>
                     <picture class="album-image">
-                        <source sizes="40px"
-                            srcset="https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/e1/79/61/e1796180-6f6f-fbaa-6aa8-8e1516ac49c6/21UMGIM26092.rgb.jpg/40x40bb-50.webp 40w, https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/e1/79/61/e1796180-6f6f-fbaa-6aa8-8e1516ac49c6/21UMGIM26092.rgb.jpg/80x80bb-50.webp 80w"
-                            type="image/webp">
-                        <source
-                            srcset="https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/e1/79/61/e1796180-6f6f-fbaa-6aa8-8e1516ac49c6/21UMGIM26092.rgb.jpg/40x40bb-50.jpg 40w, https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/e1/79/61/e1796180-6f6f-fbaa-6aa8-8e1516ac49c6/21UMGIM26092.rgb.jpg/80x80bb-50.jpg 80w"
-                            type="image/jpeg">
-                        <img class="media-artwork-v2__image" sizes="40px" src="/assets/artwork/1x1.gif" height="40"
-                            width="40">
                     </picture>
                 </li>
-                <li><a class="songs-name"> good 4 u</a></li>
-                <li><a href="https://music.apple.com/us/artist/olivia-rodrigo/979458609"
-                        class="songs-artist-name">Olivia
-                        Rodrigo</a></li>
-                <li><a href="https://music.apple.com/us/album/good-4-u/1560735414?i=1560735551"
-                        class="songs-album">SOUR</a>
-                </li>
-                <li><a class="songs-length">2:58</a></li>
+                <li><a class="songs-name"> His & Hers</a></li>
+                <li><a class="songs-artist-name">Internet Money Records</a></li>
+                <li><a class="songs-album"></a>
             </ul>
-            <!-- 2nd Track-->
-            <ul>
-                <li><a class="songs-rank">2</a></li>
+             <!--2nd Track-->
+             <ul>
+                <li><a class="songs-rank">1</a></li>
                 <li>
                     <picture class="album-image">
-                        <source sizes="40px"
-                            srcset="https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/e1/79/61/e1796180-6f6f-fbaa-6aa8-8e1516ac49c6/21UMGIM26092.rgb.jpg/40x40bb-50.webp 40w, https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/e1/79/61/e1796180-6f6f-fbaa-6aa8-8e1516ac49c6/21UMGIM26092.rgb.jpg/80x80bb-50.webp 80w"
-                            type="image/webp">
-                        <source
-                            srcset="https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/e1/79/61/e1796180-6f6f-fbaa-6aa8-8e1516ac49c6/21UMGIM26092.rgb.jpg/40x40bb-50.jpg 40w, https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/e1/79/61/e1796180-6f6f-fbaa-6aa8-8e1516ac49c6/21UMGIM26092.rgb.jpg/80x80bb-50.jpg 80w"
-                            type="image/jpeg">
-                        <img class="media-artwork-v2__image" sizes="40px" src="/assets/artwork/1x1.gif" height="40"
-                            width="40">
                     </picture>
                 </li>
-                <li><a class="songs-name"> traitor</a></li>
-                <li><a href="https://music.apple.com/us/artist/olivia-rodrigo/979458609"
-                        class="songs-artist-name">Olivia
-                        Rodrigo</a></li>
-                <li><a href="https://music.apple.com/us/album/good-4-u/1560735414?i=1560735551"
-                        class="songs-album">SOUR</a>
-                </li>
-                <li><a class="songs-length">3:34</a></li>
+                <li><a class="songs-name"> Miss The Rage</a></li>
+                <li><a class="songs-artist-name">Trippie Redd</a></li>
+                <li><a class="songs-album"></a>
             </ul>
+                    <!--3rd Track-->
+                    <ul>
+                        <li><a class="songs-rank">1</a></li>
+                        <li>
+                            <picture class="album-image">
+                            </picture>
+                        </li>
+                        <li><a class="songs-name"> Rapstar</a></li>
+                        <li><a class="songs-artist-name">Polog G</a></li>
+                        <li><a class="songs-album"></a>
+                    </ul>
+                            <!--4th Track-->
+                            <ul>
+                                <li><a class="songs-rank">1</a></li>
+                                <li>
+                                    <picture class="album-image">
+                                    </picture>
+                                </li>
+                                <li><a class="songs-name"> White Teeth</a></li>
+                                <li><a class="songs-artist-name">YoungBoy Never Broke Again</a></li>
+                                <li><a class="songs-album"></a>
+                            </ul>
+                    <!--5th Track-->
+                    <ul>
+                        <li><a class="songs-rank">1</a></li>
+                        <li>
+                            <picture class="album-image">
+                            </picture>
+                        </li>
+                        <li><a class="songs-name"> His & Hers</a></li>
+                        <li><a class="songs-artist-name">Internet Money Records</a></li>
+                        <li><a class="songs-album"></a>
+                    </ul>
+                            <!--6th Track-->
+                            <ul>
+                                <li><a class="songs-rank">1</a></li>
+                                <li>
+                                    <picture class="album-image">
+                                    </picture>
+                                </li>
+                                <li><a class="songs-name"> Tell Em</a></li>
+                                <li><a class="songs-artist-name">Cochise</a></li>
+                                <li><a class="songs-album"></a>
+                            </ul>
+                    <!--7th Track-->
+                    <ul>
+                        <li><a class="songs-rank">1</a></li>
+                        <li>
+                            <picture class="album-image">
+                            </picture>
+                        </li>
+                        <li><a class="songs-name"> Wants and Needs</a></li>
+                        <li><a class="songs-artist-name">Drake</a></li>
+                        <li><a class="songs-album"></a>
+                    </ul>
+                            <!--8th Track-->
+                            <ul>
+                                <li><a class="songs-rank">1</a></li>
+                                <li>
+                                    <picture class="album-image">
+                                    </picture>
+                                </li>
+                                <li><a class="songs-name"> Every Chance I Get</a></li>
+                                <li><a class="songs-artist-name">DJ Khaled</a></li>
+                                <li><a class="songs-album"></a>
+                            </ul>
+                    <!--9th Track-->
+                    <ul>
+                        <li><a class="songs-rank">1</a></li>
+                        <li>
+                            <picture class="album-image">
+                            </picture>
+                        </li>
+                        <li><a class="songs-name"> Calling My Phone</a></li>
+                        <li><a class="songs-artist-name">Lil Tjay</a></li>
+                        <li><a class="songs-album"></a>
+                    </ul>
+                            <!--10th Track-->
+                            <ul>
+                                <li><a class="songs-rank">1</a></li>
+                                <li>
+                                    <picture class="album-image">
+                                    </picture>
+                                </li>
+                                <li><a class="songs-name"> m y . l i f e</a></li>
+                                <li><a class="songs-artist-name">J. Cole</a></li>
+                                <li><a class="songs-album"></a>
+                            </ul>
         </div>
         <!-- Footer -->
-    <section>
-    </section>
+        <section>
+            <script>
+                const settings = {
+                    "async": true,
+                    "crossDomain": true,
+                    "url": "https://theaudiodb.p.rapidapi.com/mostloved.php?format=track",
+                    "method": "GET",
+                    "headers": {
+                        "x-rapidapi-key": "3ab178434dmsh0f485e3622a66afp133f1cjsna804784a878c",
+                        "x-rapidapi-host": "theaudiodb.p.rapidapi.com"
+                    }
+                };
+                 $.ajax(settings).done(function (response) {
+                    console.log(response);
+   });
+            </script>
+        </section>
         <footer>
             <h2>© 2021 Team DJA. All Rights Reserved.</h2>
         </footer>
