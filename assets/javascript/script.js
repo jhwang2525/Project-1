@@ -11,6 +11,11 @@ var getDanceTopCharts = function (user) {
     });
   });
 };
+
+
+
+
+
 fetch("https://api.github.com/users/arand013")
   .then(function (response) {
     return response.json()
@@ -20,9 +25,24 @@ fetch("https://api.github.com/users/arand013")
     document.querySelector(".image").innerHTML = `
                
             <h1>${data.login}</h1>
+
              <img src="${data.avatar_url}" alt="">
             `
   })
+
+
+fetch("https://theaudiodb.com/api/v1/json/523532/mostloved.php?format=track")
+  .then(function (response) {
+    return response.json()
+  })
+  .then(function (data) {
+    console.log(data)
+
+
+  })
+
+
+
 // Hip-Hop top hits
 // Rock top hits
 // Pop top hits
