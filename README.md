@@ -29,6 +29,6 @@
 
 
 
-![Alt Text](https://github.com/jhwang2525/Project-1/blob/main/assets/images/TopChart!%20(1).gif?raw=true)
+![Alt Text](https://github.com/jhwang2525/Project-1/blob/main/assets/images/demo.gif?raw=true)
 
 
