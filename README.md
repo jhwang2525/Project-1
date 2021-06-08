@@ -24,12 +24,11 @@
 # Links
 
 * Github Link -  https://github.com/jhwang2525/Project-1
-* Deployed Live URL - https://jhwang2525.github.io/Project-1/ *** (REDO THIS LINK) ***
+* Deployed Live URL - https://jhwang2525.github.io/Project-1/
 
 
 
 
-![Alt Text](https://github.com/jhwang2525/Project-1/blob/main/assets/images/TopChart!%20(1).gif?raw=true)
+![Alt Text](https://github.com/jhwang2525/Project-1/blob/main/assets/images/demo.gif?raw=true)
 
-![Alt Text](https://github.com/jhwang2525/Project-1/blob/main/assets/images/TopChart!%20(1).gif?raw=true)
->>>>>>> d4bb15179e9d4ff5023ac2ea04cc133ab6c3fa6a
+

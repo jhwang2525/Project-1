@@ -1,1 +1,50 @@
 
+<<<<<<< HEAD
+=======
+  // make a request to the url
+  fetch(apiUrl).then(function (response) {
+    response.json().then(function (data) {
+      console.log(data);
+    });
+  });
+};
+
+
+
+
+
+fetch("https://api.github.com/users/arand013")
+  .then(function (response) {
+    return response.json()
+  })
+  .then(function (data) {
+    console.log(data)
+    document.querySelector(".image").innerHTML = `
+               
+            <h1>${data.login}</h1>
+
+             <img src="${data.avatar_url}" alt="">
+            `
+  })
+
+
+fetch("https://theaudiodb.com/api/v1/json/523532/mostloved.php?format=track")
+  .then(function (response) {
+    return response.json()
+  })
+  .then(function (data) {
+    console.log(data)
+
+
+  })
+
+
+
+// Hip-Hop top hits
+// Rock top hits
+// Pop top hits
+// New Releases
+// Biboard Top 100
+// Viral Hits
+// Today's Top Hits
+>>>>>>> 25ef9bbc78fa51e92312c1d00b2ab558ff27b7d7
