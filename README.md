@@ -28,7 +28,6 @@
 
 
 
-
 ![Alt Text](https://github.com/jhwang2525/Project-1/blob/main/assets/images/demo.gif?raw=true)
 
 
