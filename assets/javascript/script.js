@@ -1,6 +1,4 @@
 
-<<<<<<< HEAD
-=======
   // make a request to the url
   fetch(apiUrl).then(function (response) {
     response.json().then(function (data) {
@@ -47,4 +45,3 @@ fetch("https://theaudiodb.com/api/v1/json/523532/mostloved.php?format=track")
 // Biboard Top 100
 // Viral Hits
 // Today's Top Hits
->>>>>>> 25ef9bbc78fa51e92312c1d00b2ab558ff27b7d7
